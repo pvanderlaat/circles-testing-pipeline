@@ -29,7 +29,7 @@ jobs:
 
       - name: Build App Bundles
         run: eas build --platform all --non-interactive
-    # steps:
+    # steps: 
     #   - name: Check for EXPO_TOKEN
     #     run: |
     #       if [ -z "${{ secrets.EXPO_TOKEN }}" ]; then
