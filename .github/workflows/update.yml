@@ -28,7 +28,7 @@ jobs:
         run: yarn install
 
       - name: Build App Bundles
-        run: eas build --platform all --non-interactive
+        run: eas build --platform Android --non-interactive
     # steps:
     #   - name: Check for EXPO_TOKEN
     #     run: |
