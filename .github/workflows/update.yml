@@ -27,8 +27,8 @@ jobs:
       - name: Install deps
         run: yarn install
 
-      - name: Build App Bundles
-        run: eas build --platform Android --non-interactive
+      - name: Publish update
+        run: eas update --auto
     # steps:
     #   - name: Check for EXPO_TOKEN
     #     run: |
